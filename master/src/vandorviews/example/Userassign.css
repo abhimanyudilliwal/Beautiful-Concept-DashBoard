@@ -1,0 +1,98 @@
+.geeks {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height:40px;
+    background: white;
+}
+
+.geeks::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    display: block;
+    background: linear-gradient(
+        -45deg, transparent, 33.33%,
+        rgb(128, 109, 0) 33.33%, rgb(128, 47, 0) 66.66%, 
+        transparent 66.66%),
+        linear-gradient(45deg, transparent,
+        33.33%,rgb(126, 128, 0) 33.33%, rgb(128, 109, 0) 66.66%,
+        transparent 66.66%);
+    background-size: 30px 60px;
+    transform: rotateX(180deg);
+}
+
+.sggeeks {
+    position: absolute;
+    top: 11.5%;
+    width: 100%;
+    height:40px;
+    background: white;
+}
+
+.sggeeks::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    display: block;
+    background: linear-gradient(
+        -45deg, transparent, 33.33%,
+        rgb(128, 109, 0) 33.33%, rgb(128, 47, 0) 66.66%, 
+        transparent 66.66%),
+        linear-gradient(45deg, transparent,
+        33.33%,rgb(126, 128, 0) 33.33%, rgb(128, 109, 0) 66.66%,
+        transparent 66.66%);
+    background-size: 30px 60px;
+    transform: rotateX(180deg);
+}
+.rqgeeks {
+    position: absolute;
+    top: 8%;
+    width: 100%;
+    height:40px;
+    background: white;
+}
+
+.rqgeeks::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    display: block;
+    background: linear-gradient(
+        -45deg, transparent, 33.33%,
+        rgb(128, 109, 0) 33.33%, rgb(128, 47, 0) 66.66%, 
+        transparent 66.66%),
+        linear-gradient(45deg, transparent,
+        33.33%,rgb(126, 128, 0) 33.33%, rgb(128, 109, 0) 66.66%,
+        transparent 66.66%);
+    background-size: 30px 60px;
+    transform: rotateX(180deg);
+}
+
+.upgeeks {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height:40px;
+    background: white;
+}
+
+.upgeeks::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    display: block;
+    background: linear-gradient(
+        -45deg, transparent, 33.33%,
+        rgb(128, 109, 0) 33.33%, rgb(128, 47, 0) 66.66%, 
+        transparent 66.66%),
+        linear-gradient(45deg, transparent,
+        33.33%,rgb(126, 128, 0) 33.33%, rgb(128, 109, 0) 66.66%,
+        transparent 66.66%);
+    background-size: 30px 60px;
+    transform: rotateX(180deg);
+}
